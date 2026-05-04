@@ -9,6 +9,13 @@ body {
     margin: 0;
     padding: 1rem;
 }
+section{
+    background-color: rgb(198, 242, 245);
+    padding: 1.5rem;
+}
+section p,li{
+    color: black;
+}
 h1, h2, h3 {
     font-family: 'Lato', serif;
     color: rgb(28, 28, 184);
@@ -21,6 +28,20 @@ header, footer{
     background-color: rgb(53, 110, 235);
     color:aliceblue;
     font-weight: bold;
+    padding: 1.5rem;
+    margin-bottom:1rem;
+    margin-top: 1rem;
+}
+aside{
+    margin:2rem;
+    color: rgb(28, 28, 184);
+    background-color: aliceblue;
+    padding:0.5rem;
+    text-align: center;
+}
+main p{
+    background-color: aliceblue;
+    padding: 0.5rem;
 }
 nav{
     display: inline-block;
@@ -32,15 +53,15 @@ h2 {
 li {
 	line-height: 1.8em;
 }
-a:link {
+nav a:link {
 	color: rgb(28, 28, 184);
 }
-a:visited {
+nav a:visited {
 	color: rgb(221, 202, 31);
 }
-a:hover {
+nav a:hover {
 	color: rgb(57, 219, 224);
 }
-a:active {
+nav a:active {
 	color: rgb(57, 219, 224);
 }
