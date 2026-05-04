@@ -43,15 +43,13 @@ main p{
     background-color: aliceblue;
     padding: 0.5rem;
 }
+
 nav{
+    background-color: aliceblue;
+}
+nav ul li{
     display: inline-block;
     list-style-type: none;
-}
-h2 {
-	font-weight: 700;
-}
-li {
-	line-height: 1.8em;
 }
 nav a:link {
 	color: rgb(28, 28, 184);
@@ -64,4 +62,10 @@ nav a:hover {
 }
 nav a:active {
 	color: rgb(57, 219, 224);
+}
+nav a {
+    font-weight: bold;
+	padding: 0.4em 1em;
+	text-align: center;
+	text-decoration: none;
 }
