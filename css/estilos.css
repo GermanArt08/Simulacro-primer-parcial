@@ -1,0 +1,46 @@
+#contenedor {
+    width: 100%;
+    max-width: 960px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+body {
+    background-image: url(../img/fondo.png);
+    margin: 0;
+    padding: 1rem;
+}
+h1, h2, h3 {
+    font-family: 'Lato', serif;
+    color: rgb(28, 28, 184);
+}
+span{
+    font-size: larger;
+    color: rgb(28, 28, 184);
+}
+header, footer{
+    background-color: rgb(53, 110, 235);
+    color:aliceblue;
+    font-weight: bold;
+}
+nav{
+    display: inline-block;
+    list-style-type: none;
+}
+h2 {
+	font-weight: 700;
+}
+li {
+	line-height: 1.8em;
+}
+a:link {
+	color: rgb(28, 28, 184);
+}
+a:visited {
+	color: rgb(221, 202, 31);
+}
+a:hover {
+	color: rgb(57, 219, 224);
+}
+a:active {
+	color: rgb(57, 219, 224);
+}
